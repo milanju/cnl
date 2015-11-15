@@ -6,14 +6,14 @@
 |* since 2010
 |* licensed under the MIT License
 |* Enjoy.
-|* 
+|*
 |* Thanks,
 |* Sean */
 
 ;(function ($, window) {
 
     // test for feature support and return if failure
-    
+
     // defaults
     var defaults = {
         ratio: 16/9, // usually either 4/3 or 16/9 -- tweak as needed
@@ -22,10 +22,10 @@
         repeat: true,
         width: $(window).width(),
         wrapperZIndex: 99,
-        playButtonClass: 'tubular-play',
-        pauseButtonClass: 'tubular-pause',
-        muteButtonClass: 'tubular-mute',
-        volumeUpClass: 'tubular-volume-up',
+        playButtonClass: 'icon-play',
+        pauseButtonClass: 'icon-pause',
+        muteButtonClass: 'icon-volume-up',
+        volumeUpClass: 'icon-volume-off',
         volumeDownClass: 'tubular-volume-down',
         increaseVolumeBy: 10,
         start: 0
@@ -139,7 +139,7 @@
     $.fn.tubular = function (options) {
         return this.each(function () {
             if (!$.data(this, 'tubular_instantiated')) { // let's only run one
-                $.data(this, 'tubular_instantiated', 
+                $.data(this, 'tubular_instantiated',
                 tubular(this, options));
             }
         });
