@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('#wrapper').tubular({videoId: 'nXpVy9HWC50', mute: true});
     $('.icon-volume-off').show();
     $('.icon-pause').show();
+  } else {
+    $('.mobile-bg').show();
   }
 
   $('.icon-pause').click(function() {
