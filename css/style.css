@@ -59,8 +59,8 @@ h1 {
   background-size: cover;
   -webkit-animation-name: containerFadeIn;
   animation-name: containerFadeIn;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2.6s;
+  animation-duration: 2.6s;
 }
 
 .wrapper {
@@ -80,8 +80,8 @@ h1 {
   background-size: cover;
   -webkit-animation-name: containerFadeIn;
   animation-name: containerFadeIn;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 2.6s;
+  animation-duration: 2.6s;
 }
 
 .splash {
