@@ -1,11 +1,11 @@
 /* icons */
 @font-face {
-  font-family: 'fontello';
-  src: url('/font/fontello.eot?53301608');
-  src: url('/font/fontello.eot?53301608#iefix') format('embedded-opentype'),
-       url('/font/fontello.woff?53301608') format('woff'),
-       url('/font/fontello.ttf?53301608') format('truetype'),
-       url('/font/fontello.svg?53301608#fontello') format('svg');
+  font-family: "fontello";
+  src: url("/font/fontello.eot?53301608");
+  src: url("/font/fontello.eot?53301608#iefix") format("embedded-opentype"),
+       url("/font/fontello.woff?53301608") format("woff"),
+       url("/font/fontello.ttf?53301608") format("truetype"),
+       url("/font/fontello.svg?53301608#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 }
