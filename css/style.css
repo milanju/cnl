@@ -52,6 +52,7 @@ body {
 
 h1 {
   font-size: 3.0rem;
+  margin: 0.4em 0;
 }
 
 #tubular-container {
@@ -82,6 +83,14 @@ h1 {
           animation-name: containerFadeIn;
   -webkit-animation-duration: 2.6s;
           animation-duration: 2.6s;
+}
+
+.logo {
+  width: 300px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 1.6s;
+          animation-duration: 1.6s;
 }
 
 .splash {
@@ -129,8 +138,8 @@ h1 {
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #FFF;
-  background-color: #1565c0;
+  color: #141414;
+  background-color: #FFF;
   height: 50px;
   line-height: 50px;
   padding: 0.6rem 3rem;
@@ -138,8 +147,8 @@ h1 {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
 }
 
 
@@ -168,7 +177,7 @@ h1 {
 .icon-play {
   position: absolute;
   bottom: 20px;
-  right: 50px;
+  right: 60px;
   display: none;
   color: #FFF;
   cursor: pointer;
@@ -187,6 +196,10 @@ h1 {
   .splash-btn {
     font-size: 23px;
   }
+
+  .logo {
+    width: 400px;
+  }
 }
 
 @media (min-width: 750px) {
@@ -196,6 +209,10 @@ h1 {
 
   .splash-btn {
     font-size: 26px;
+  }
+
+  .logo {
+    width: 520px;
   }
 }
 

@@ -4,8 +4,8 @@ $(document).ready(function() {
   console.log("HELLO");
   if (window.matchMedia("(min-width: 769px)").matches) {
     console.log("show tubular");
-    $('#wrapper').tubular({videoId: 'nXpVy9HWC50', mute: true});
-    $('.icon-volume-off').show();
+    $('#wrapper').tubular({videoId: 'nXpVy9HWC50', mute: false});
+    $('.icon-volume-up').show();
     $('.icon-pause').show();
   } else {
     console.log("show mobile");
